@@ -16,9 +16,9 @@
         }
 
         :root{
-            --bg-color:#ffffff;
-            --primary-color: #8000ff;
-            --secondary-color:#283abc;
+            --bg-color:#36cfc3;
+            --primary-color: #ffffff;
+            --secondary-color:#c70f4c;
         }
 
                 .coda-regular {
@@ -39,21 +39,26 @@
         }
 
 
+       
         h1 {
-            color: var(--bg-color);
+         color: var(--primary-color);
+        -webkit-text-stroke: 2px #c70f4c;
         }
 
+
         h2 {
-            color: var(--bg-color);
+            color: var(--primary-color);
+            font-size: 0.8em;
+            color: var(--primary-color);
+        -webkit-text-stroke: 1px #c70f4c;
         }
 
         div {
-        background-color: var(--bg-color);
-        padding: 50px;
-        margin: 50px;
+        background: transparent;
         text-align: center;
-
+        
         }
+
 
         div p{
             margin-bottom: 10px;
@@ -64,7 +69,12 @@
         }
     
         body { 
-            background-color:var(--secondary-color);
+              background: linear-gradient(
+        135deg,#36cfc3, #267da8, #34336f
+        );
+             color: transparent;
+            background-clip: text;
+
         }
 
         hgroup {
@@ -76,29 +86,37 @@
             width: 100;
             height: 5vh;
             text-align: center;
-            font-size: 30px;
+            font-size: 1.08em;
             margin: 30px;
+            color: var(--primary-color);
         }
 
         footer {
             width: 100;
             height: 15vh;
             text-align:center;
-            font-size: 25px;
+            font-size: 1.60em;
             margin: 50px;
+            color:#ffffff
         }
 
         main {
             text-align: center;
-            font-size: 1.08em;
+            font-size: 1.60em;
             text-transform: uppercase;
         }
 
         header {
-            background-color:var(--secondary-color);
+            background-color:var(--bg-color);
             font-size: 50px;
+            color: transparent;
+            background-clip: text;
         }
-
+        
+        a {
+            font-size: 20px;
+            color: #ffffff;
+          }  
        
     </style>
 </head>
@@ -109,6 +127,7 @@
     
 <hgroup class="coda-extrabold">
            <h1> MIKU EXPO </h1>
+
            <h2>2024 New Zealand y Australia</h2>
 
        </hgroup>
